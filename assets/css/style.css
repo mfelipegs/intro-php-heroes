@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	
+}
+
+body {
+	background-image: url('../img/background.jpg') ;
+	/*background:linear-gradient(rgba(12, 12, 12, 0.5), rgba(37, 37, 37, 0.5)), url('../img/background.jpg');
+	*/
+	filter:brightness(80%);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+}
+
+p {
+    margin-bottom: 2em;
+    color: #fff;
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+    align-self: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.images {
+    width: 14em;
+}
+
+.images img {
+    width: 100%;
+    height: auto;
+}
+
+.header {
+    display: flex;
+    align-self: auto;
+    align-items: center;
+    justify-content: center;
+}
