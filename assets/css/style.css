@@ -14,7 +14,6 @@ body {
 	background-image: url('../img/background.jpg') ;
 	/*background:linear-gradient(rgba(12, 12, 12, 0.5), rgba(37, 37, 37, 0.5)), url('../img/background.jpg');
 	*/
-	filter:brightness(80%);
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 100%;
@@ -36,11 +35,11 @@ p {
 
 }
 
-.images {
+.logo {
     width: 14em;
 }
 
-.images img {
+.logo img {
     width: 100%;
     height: auto;
 }
@@ -50,4 +49,13 @@ p {
     align-self: auto;
     align-items: center;
     justify-content: center;
+}
+
+.image_car {
+    width: 18em;
+}
+
+.image_car img {
+    width: 100%;
+    height: auto;
 }

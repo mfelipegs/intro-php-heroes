@@ -17,12 +17,12 @@
         
         $n = 6;
         
-        echo "<div class='images header'><img src=".$manufacturer_logo[0]."></div>";
+        echo "<div class='logo header'><img src=".$manufacturer_logo[0]."></div>";
         echo "<p class='header'>".$manufacturer." ".$car[0]."</p>";
 
         //print the first element of the array (Agera R)
-        for($i = 0; $i <= $n; $i++) {
-            echo "<div class='images'>
+        for($i = 0; $i <= $n-1; $i++) {
+            echo "<div class='image_car'>
                     <img src='$car_img[0]'>
                   </div>" . "<br>";
         }
